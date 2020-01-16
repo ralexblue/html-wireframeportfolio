@@ -58,7 +58,7 @@ const projectspage=function(){
             <h1>Quiz-App<h1>
             <p class="hidden">
             <br>This is a simple quiz application about Sound Physics.
-            <br>The user can choose between answer choices and submit to see next question to be answered.
+            <br>The user can choose between answer choices and submit to see the next question to be answered.
             <br>Jquery,HTML,and CSS.
             </p>
             <button  type="button" class="left" onclick="window.open('https://github.com/thinkful-ei-jaguar/quiz-appRobert-Kristofer','mywindow');">Repo</button>
