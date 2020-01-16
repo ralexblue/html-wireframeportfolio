@@ -46,15 +46,15 @@ body {
   margin-top: 210px;
   padding-top:0px;
   font-size: large;
-  display: none;
 }
-.projects:hover{
+.projects{
   background: url('./assets/quizapp.jpg') no-repeat center center;
 }
+
 .projects:hover p{
   display: block;
 }
-.projects:hover .left{
+.projects .left{
   display: block;
 }
 
@@ -108,7 +108,7 @@ align-items: center;
     color:white;
     text-decoration: none; 
   }
-  @media screen and (min-width: 600px) and (max-width:3760px) {
+  @media screen and (min-width: 600px){
     .aboutformat{
       display: flex;
       flex-direction: row;
@@ -123,12 +123,7 @@ align-items: center;
       margin-top: -50px;
     }
   }
-  @media screen and (min-width: 1px) and (max-width:319px) {
-    .container {
-        margin-bottom:50px;
-    }
-  }
-  @media screen and (min-width: 1px) and (max-width:1220px) {
+  @media screen and (min-width:1220px) {
     .aboutformat{
       display: flex;
       flex-direction: column;

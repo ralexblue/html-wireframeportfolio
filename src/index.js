@@ -69,13 +69,15 @@ const projectspage=function(){
 }
 const contactpage=function(){
     return `
-    <div class ="contactform">
+    <div class ="contactform" id ="contact">
     <h1>Contact<h1>
     <h2>Email Adress:</h2>
-    <p>raperez523@gmail.com</p>
+    <a href="mailto:raperez523@gmail.com" target="_top">raperez523@gmail.com</a>
     <h2>Github:</h2>
-    <p>ralexblue</p>
-    <//div>
+    <a href="https://github.com/ralexblue">ralexblue</a>
+    <h2>LinkeIn</h2>
+    <a href="https://www.linkedin.com/in/robert-perez-198622199/">Robert Perez</a>
+    </div>
     `
 }
 /*const resumepage=function(){
