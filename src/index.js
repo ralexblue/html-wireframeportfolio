@@ -54,10 +54,10 @@ const projectspage=function(){
     return `
     <div class="projectsformat">
         <h1>Projects</h1>
-        <div class ="projects" onclick="window.open('https://thinkful-ei-jaguar.github.io/quiz-appRobert-Kristofer/','mywindow');" style="cursor: pointer;">
+        <div class ="projects" onclick="window.open('https://thinkful-ei-jaguar.github.io/quiz-appRobert-Kristofer/','mywindow');">
             <h1>Quiz-App<h1>
             <p class="hidden">
-            <br>This is a simple quiz application about Sound Physics.
+            <br>This is a simple quiz application
             <br>The user can choose between answer choices and submit to see the next question to be answered.
             <br>Jquery,HTML,and CSS.
             </p>

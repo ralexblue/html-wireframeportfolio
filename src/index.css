@@ -29,16 +29,15 @@ body {
   width: 80%;
   border:1px solid black; 
   color:black;
- 
+  cursor: pointer;
   border-radius: 30px;
-  background-color: rgb(238, 94, 75);
-  background-image: linear-gradient(0deg, rgb(233, 154, 35) 0%, rgb(241, 102, 37) 50%, #e77326 100%);
+  background-color: rgb(53, 43, 42);
+  background-image: linear-gradient(0deg, rgb(114, 106, 95) 0%, rgb(82, 69, 64) 50%, #35302c 100%);
 }
 .left{
   width: 100%;
   height:30px;
-  background-color: rgb(238, 94, 75);
-  background-image: linear-gradient(0deg, rgb(233, 154, 35) 0%, rgb(241, 102, 37) 50%, #e77326 100%);
+  
   display: none;
 }
 
@@ -47,10 +46,6 @@ body {
   padding-top:0px;
   font-size: large;
 }
-.projects{
-  background: url('./assets/quizapp.jpg') no-repeat center center;
-}
-
 .projects:hover p{
   display: block;
 }
