@@ -62,9 +62,9 @@ ul {
     display: flex;
     justify-content: flex-start;
     align-content: flex-start;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    background-color: black;
+    flex-direction: column;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
     margin-bottom:50px;
     margin-top: 0px;
   }
@@ -103,19 +103,19 @@ align-items: center;
     color:white;
     text-decoration: none; 
   }
+  @media screen and (min-width: 435px){
+  .container{
+    flex-direction: row;
+  }
+  
+  
+  
+  }
   @media screen and (min-width: 600px){
     .aboutformat{
       display: flex;
       flex-direction: row;
       justify-content: center;
-    }
-    .container {
-        margin-bottom:70px;
-        height:1px;
-        margin-top: 0px;
-    }
-    .circle {
-      margin-top: -50px;
     }
   }
   @media screen and (min-width:1220px) {
