@@ -61,6 +61,7 @@ const projectspage=function(){
             <br>The user can choose between answer choices and submit to see the next question to be answered.
             <br>Jquery,HTML,and CSS.
             </p>
+            <button  type="button" class="left" onclick="window.open('https://thinkful-ei-jaguar.github.io/quiz-appRobert-Kristofer/','mywindow');">Live</button>
             <button  type="button" class="left" onclick="window.open('https://github.com/thinkful-ei-jaguar/quiz-appRobert-Kristofer','mywindow');">Repo</button>
         </div>
         
@@ -69,13 +70,13 @@ const projectspage=function(){
 }
 const contactpage=function(){
     return `
-    <div class ="contactform" id ="contact">
+    <div class ="contactform" id ="conta">
     <h1>Contact<h1>
     <h2>Email Adress:</h2>
     <a href="mailto:raperez523@gmail.com" target="_top">raperez523@gmail.com</a>
     <h2>Github:</h2>
     <a href="https://github.com/ralexblue">ralexblue</a>
-    <h2>LinkeIn</h2>
+    <h2>LinkedIn</h2>
     <a href="https://www.linkedin.com/in/robert-perez-198622199/">Robert Perez</a>
     </div>
     `

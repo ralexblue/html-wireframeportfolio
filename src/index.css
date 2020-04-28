@@ -69,7 +69,7 @@ ul {
     margin-top: 0px;
   }
   .circle {
-    background-color: #2EB6E8;
+    background-color: darkgrey;
     border-radius: 1000px;
     height:100px;
     width:100px;
@@ -77,16 +77,16 @@ ul {
     
   }
   .a{
-    background-color: #419AFF;
+    background-color: gray;
   }
   .b{
-    background-color: #2E54E8;
+    background-color: lavender;
   }
   .c{
-    background-color: #499BE3;
+    background-color: oldlace;
   }
   .circle:hover {
-    background-color: #33FEFF;
+    background-color: oldlace;
   }
 .projectsformat{
 display: flex;
