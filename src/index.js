@@ -1,4 +1,4 @@
-import $ from 'jquery';
+/*import $ from 'jquery';
 import './index.css';
 
 
@@ -86,7 +86,7 @@ const contactpage=function(){
     <h2>Resume<h2>
     <p>this is where all the resume go</p>
     `
-}*/
+}/
 const thebody=function(){
     const about=aboutmepage()+projectspage()+contactpage();
     $('.body').html(about);
@@ -125,5 +125,5 @@ const main = function(){
 
 
 
-$(main);
+$(main);*/
 
