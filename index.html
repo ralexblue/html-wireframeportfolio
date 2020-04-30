@@ -1,14 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- <link rel="stylesheet" href="./index.css" type="text/css" media="screen"> -->
+  <style>
+    body {
+  margin: 0;
+}
+.body{
+  font-family: 'Gentium Basic', serif;
+  color: rgb(7, 7, 7);
+  background-color: white;
+}
+.line{
+  width:25%;
+}
+.tea{
+  background-color:white;
+  height:50px;
+  padding-top: 5px;
+  padding-bottom: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+.contactform{
+  margin-left: 5%;
+}
+.projects{
+  display: flex;
+  flex-shrink: 1px;
+  flex-grow: 1px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  border:1px solid black; 
+  color:black;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: rgb(53, 43, 42);
+  background-image: linear-gradient(0deg, rgb(114, 106, 95) 0%, rgb(82, 69, 64) 50%, #35302c 100%);
+}
+.left{
+  width: 100%;
+  height:30px;
+  
+  display: none;
+}
+
+.projects p{
+  margin-top: 210px;
+  padding-top:0px;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-size: large;
+}
+.projects:hover p{
+  display: block;
+}
+.projects .left{
+  display: block;
+}
+
+
+ul {
+    list-style-type: none;
+    
+  }
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    margin-bottom:50px;
+    margin-top: 0px;
+  }
+  .circle {
+    background-color: darkgrey;
+    border-radius: 1000px;
+    height:100px;
+    width:100px;
+    margin: 1em;
+    
+  }
+  .a{
+    background-color: gray;
+  }
+  .b{
+    background-color: gray;
+  }
+  .c{
+    background-color: oldlace;
+  }
+  .circle:hover {
+    background-color: oldlace;
+  }
+.projectsformat{
+display: flex;
+justify-content:center;
+flex-direction: column;
+align-items: center;
+}
+  .aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    color:white;
+    text-decoration: none; 
+  }
+  @media screen and (min-width: 435px){
+  .container{
+    flex-direction: row;
+  }
+  
+  
+  
+  }
+  @media screen and (min-width: 600px){
+    .aboutformat{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  @media screen and (min-width:1220px) {
+    .aboutformat{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .line{
+      width:100%;
+    }
+    .projects p{
+      margin-top: 260px;
+    }
+}
+
+  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Robert Perez</title>
 </head>
 <body>
-    <div class="head"></div>
-    <div class="body"></div>
+  <div class="tea">
+    <h1>Robert Perez</h1>
+  </div>
+  <ul class="container">
+    <li class="circle"><a class="aligner" href="#home">Home</a></li>
+    <li class="circle a"><a class="aligner" href="#projects">Projects</a></li>
+    <li class="circle b"><a class="aligner" href="#contact">Contact</a></li>
+</ul>
+<div class = "aboutformat">
+  <div class ="info">
+      <h2>About Me<h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna aliqua. Mi sit amet mauris 
+      commodo quis imperdiet massa tincidunt nunc. Purus sit amet luctus 
+      venenatis lectus magna fringilla. Sed nisi lacus sed viverra tellus
+       in hac. Leo integer malesuada nunc vel risus commodo. Nascetur 
+       ridiculus mus mauris vitae ultricies leo integer. Scelerisque 
+       fermentum dui faucibus in ornare. Et netus et malesuada fames ac 
+       turpis egestas maecenas pharetra. Donec ac odio tempor orci. Luctus
+        venenatis lectus magna fringilla urna porttitor rhoncus. Vel 
+        fringilla est ullamcorper eget. Mattis rhoncus urna neque viverra 
+        justo nec ultrices dui sapien. Morbi non arcu risus quis. Turpis
+         in eu mi bibendum neque. Nibh mauris cursus mattis molestie a 
+         iaculis at erat. Est ullamcorper eget nulla facilisi etiam 
+         dignissim diam. Elementum tempus egestas sed sed risus.ofu,
+         I don't know why but I get it everytime for some reason.</p>
+      
+  </div>
+  </div>
+  <div class="projectsformat">
+    <h1>Projects</h1>
+    <div class ="projects">
+        <h1>Quiz-App<h1>
+        <p class="hidden">
+          turpis egestas maecenas pharetra. Donec ac odio tempor orci. Luctus
+          venenatis lectus magna fringilla urna porttitor rhoncus. Vel 
+          fringilla est ullamcorper eget. Mattis rhoncus urna neque viverra 
+          justo nec ultrices dui sapien. Morbi non arcu risus quis. Turpis
+           in eu mi bibendum neque. Nibh mauris cursus mattis molestie a 
+           iaculis at erat. Est ullamcorper eget nulla facilisi etiam 
+           dignissim diam. Elementum tempus egestas sed sed risus.ofu,
+           I don't know why but I get it everytime for some reason.
+        </p>
+        <button  type="button" class="left" onclick="window.open('https://thinkful-ei-jaguar.github.io/quiz-appRobert-Kristofer/','mywindow');">Live</button>
+        <button  type="button" class="left" onclick="window.open('https://github.com/thinkful-ei-jaguar/quiz-appRobert-Kristofer','mywindow');">Repo</button>
+    </div>
+</div>
+<div class ="contactform" id ="conta">
+  <h1>Contact<h1>
+  <h2>Email Adress:</h2>
+  <a href="mailto:raperez523@gmail.com" target="_top">raperez523@gmail.com</a>
+  <h2>Github:</h2>
+  <a href="https://github.com/ralexblue">ralexblue</a>
+  <h2>LinkedIn</h2>
+  <a href="https://www.linkedin.com/in/robert-perez-198622199/">Robert Perez</a>
+  </div>
+    <!-- <div class="head"></div>
+    <div class="body"></div> -->
 <script type="text/javascript" src="index_bundle.js"></script></body>
 
 </html>
